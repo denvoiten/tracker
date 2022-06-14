@@ -1,7 +1,6 @@
 # Проект - Tracker
 
-[![Build Status](https://travis-ci.com/saimon494/job4j_tracker.svg?branch=master)](https://travis-ci.com/saimon494/job4j_tracker)
-[![codecov](https://codecov.io/gh/saimon494/job4j_tracker/branch/master/graph/badge.svg?token=914M0JB7LB)](https://codecov.io/gh/saimon494/job4j_tracker)
+[![Build Status](
 ---
 ## О проекте  
 
@@ -17,7 +16,7 @@
 - удалить все заявки (Delete All Item),
 - выйти из программы (Exit).
 
-![Tracker](C:\projects\tracker\images\tracker_menu.PNG)
+![Tracker](images\tracker_menu.PNG)
 
 ## Использование
 
@@ -25,7 +24,7 @@
 `java -jar .\Tracker.jar`. После запуска из меню доступны все операции с заявками.  
 Работа приложения показана ниже.
 
-<img height="400" src="C:\projects\tracker\images\ForGit.gif" width="400"/>
+<img height="400" src="images\ForGit.gif" width="400"/>
 
 ## Контакты
 [![Telegram](https://img.shields.io/badge/Telegram-blue?logo=telegram)](https://t.me/GrokDen)
