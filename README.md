@@ -16,7 +16,11 @@
 - удалить все заявки (Delete All Item),
 - выйти из программы (Exit).
 
+<<<<<<< HEAD
 ![Tracker](images/tracker_menu.PNG)
+=======
+![Tracker](images\tracker_menu.PNG)
+>>>>>>> origin/master
 
 ## Использование
 
