@@ -96,7 +96,7 @@ public class SqlTracker implements Store, AutoCloseable {
 
     @Override
     public List<Item> findAll() {
-        String sql = "SELECT * FROM items;";
+        String sql = "SELECT * FROM items ORDER BY id;";
         List<Item> items = new ArrayList<>();
         try (PreparedStatement statement = cn.prepareStatement(sql)) {
             try (ResultSet rslSet = statement.executeQuery()) {
