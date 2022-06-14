@@ -24,3 +24,5 @@
 
 ## Контакты
 [![Telegram](https://img.shields.io/badge/Telegram-blue?logo=telegram)](https://t.me/GrokDen)
+
+email: den.voiten@gmail.com
