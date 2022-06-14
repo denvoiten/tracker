@@ -17,7 +17,7 @@
 - удалить все заявки (Delete All Item),
 - выйти из программы (Exit).
 
-![Tracker](images/tracker_menu.png)
+![Tracker](C:\projects\tracker\images\tracker_menu.PNG)
 
 ## Использование
 
@@ -25,7 +25,7 @@
 `java -jar .\Tracker.jar`. После запуска из меню доступны все операции с заявками.  
 Работа приложения показана ниже.
 
-![Tracker](images/ForGit.gif)
+<img height="400" src="C:\projects\tracker\images\ForGit.gif" width="400"/>
 
 ## Контакты
 [![Telegram](https://img.shields.io/badge/Telegram-blue?logo=telegram)](https://t.me/GrokDen)
