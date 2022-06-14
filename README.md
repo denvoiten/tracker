@@ -2,27 +2,35 @@
 
 ## О проекте  
 
-Проект представляет собой консольное приложение, систему заявок, которые хранятся в БД.
-Исходный код проекта располагается в пакете ru.job4j.tracker. Возможно выполнять следующие действия с заявками:  
-- добавить новую (Add new Item),
-- редактировать (Edit Item),
-- удалить (Delete Item),
-- вывести все (Show all items),
-- найти по id (Find item by id),
-- найти по имени (Find item by name),
-- добавить несколько заявок (Add many Item),
-- удалить все заявки (Delete All Item),
-- выйти из программы (Exit).
+Учебный проект - Консольное приложение "Tracker", система для работы с заявками.
+Позволяет добавлять, редактировать, удалять, искать и сортировать заявки.
+Имеет несколько вариантов хранения данных: в памяти и в базах данных.
+Цель проекта: демонстрация основных принципов ООП (особенности архитектуры, 
+взаимодействие объектов, модели данных, хранилища и т.д.)
 
 ![Tracker](images/tracker_menu.png)
 
+#### Технологии
+>JDK14, Maven, PostgreSQL, Hibernate, Liquibase, Java SE, JDBC, Mockito, JUnit4
+
+## Сборка
+
+Для сборки проекта необходимо:
+- Установить JDK 14, Maven.
+- Установить PostgreSQL, задать логин - postgres, пароль - password.
+- Скачать исходный код проекта с GitHub.
+- Перейти в папку, где лежит файл pom.xml.
+- Создайте базу данных в соответствии с настройками, указанными в файле *src/main/resources/app.properties*. 
+- Осуществите сборку приложения: `mvn clean install`
+- Запустите из консоли командой: `java -jar target/tracker.jar`
 
 ## Использование
+Работа приложения начинается с главного меню. Для навигации по меню используются цифры
 
 
-<img height="400" src="images\ForGit.gif" width="400"/>
+<img height="400" src="images\tracker_use.gif" width="400"/>
 
 ## Контакты
-[![Telegram](https://img.shields.io/badge/Telegram-blue?logo=telegram)](https://t.me/GrokDen)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/GrokDen)
 
-email: den.voiten@gmail.com
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](den.voiten@gmail.com)
