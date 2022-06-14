@@ -1,7 +1,5 @@
 # Проект - Tracker
 
-[![Build Status](
----
 ## О проекте  
 
 Проект представляет собой консольное приложение, систему заявок, которые хранятся в БД.
@@ -16,11 +14,8 @@
 - удалить все заявки (Delete All Item),
 - выйти из программы (Exit).
 
-<<<<<<< HEAD
-![Tracker](images/tracker_menu.PNG)
-=======
-![Tracker](images\tracker_menu.PNG)
->>>>>>> origin/master
+![Tracker](images/tracker_menu.png)
+
 
 ## Использование
 
