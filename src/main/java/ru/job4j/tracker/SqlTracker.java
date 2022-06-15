@@ -1,5 +1,8 @@
 package ru.job4j.tracker;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.InputStream;
 import java.sql.*;
 import java.util.ArrayList;
@@ -7,6 +10,7 @@ import java.util.List;
 import java.util.Properties;
 
 public class SqlTracker implements Store, AutoCloseable {
+    private static final Logger LOG = LoggerFactory.getLogger(SqlTracker.class.getName());
 
     private Connection cn;
 
@@ -61,7 +65,7 @@ public class SqlTracker implements Store, AutoCloseable {
                 }
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.error("Exception in ADD method", e);
         }
         return item;
     }
@@ -76,7 +80,7 @@ public class SqlTracker implements Store, AutoCloseable {
             statement.setInt(3, id);
             rsl = statement.executeUpdate() > 0;
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.error("Exception in REPLACE method", e);
         }
         return rsl;
     }
@@ -89,7 +93,7 @@ public class SqlTracker implements Store, AutoCloseable {
             statement.setInt(1, id);
             rsl = statement.executeUpdate() > 0;
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.error("Exception in DELETE method", e);
         }
         return rsl;
     }
@@ -106,7 +110,7 @@ public class SqlTracker implements Store, AutoCloseable {
             }
 
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.error("Exception in FIND ALL method", e);
         }
         return items;
     }
@@ -123,7 +127,7 @@ public class SqlTracker implements Store, AutoCloseable {
                 }
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.error("Exception in FIND BY NAME method", e);
         }
         return items;
     }
@@ -140,7 +144,7 @@ public class SqlTracker implements Store, AutoCloseable {
                 }
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.error("Exception in FIND BY ID method", e);
         }
         return item;
     }
