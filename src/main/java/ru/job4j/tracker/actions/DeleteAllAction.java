@@ -1,6 +1,7 @@
 package ru.job4j.tracker.actions;
 
 import ru.job4j.tracker.Input;
+import ru.job4j.tracker.Item;
 import ru.job4j.tracker.Output;
 import ru.job4j.tracker.Store;
 
@@ -20,9 +21,8 @@ public class DeleteAllAction implements UserAction {
     @Override
     public boolean execute(Input input, Store store) {
         out.println("=== Delete All items ===");
-        int count = store.findAll().size();
-        for (int i = 1; i <= count; i++) {
-            if (store.delete(i)) {
+        for (Item item : store.findAll()) {
+            if (store.delete(item.getId())) {
                 out.println("All items removed");
             } else {
                 out.println("Error");
