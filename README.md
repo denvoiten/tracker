@@ -28,7 +28,7 @@
 Работа приложения начинается с главного меню. Для навигации по меню используются цифры
 
 
-<img height="400" src="images\tracker_use.gif" width="400"/>
+<img height="500" src="images\tracker_use.gif" width="600"/>
 
 ## Контакты
 [![Telegram](https://img.shields.io/badge/Telegram-blue?logo=telegram)](https://t.me/GrokDen)
