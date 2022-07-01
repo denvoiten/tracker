@@ -11,12 +11,12 @@
 ![Tracker](images/tracker_menu.png)
 
 #### Технологии
->JDK14, Maven, PostgreSQL, Hibernate, Liquibase, Java SE, JDBC, Mockito, JUnit4
+>JDK11, Maven, PostgreSQL, Hibernate, Liquibase, Java SE, JDBC, Mockito, JUnit4
 
 ## Сборка
 
 Для сборки проекта необходимо:
-- Установить JDK 14, Maven.
+- Установить JDK 11, Maven.
 - Установить PostgreSQL, задать логин - postgres, пароль - password.
 - Скачать исходный код проекта с GitHub.
 - Перейти в папку, где лежит файл pom.xml.
